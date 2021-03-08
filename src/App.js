@@ -2,10 +2,8 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
-import { useEffect, useState } from 'react';
 import Home from './components/Home/Home';
 import NoMatch from './NoMatch/NoMatch';
 import FriendDetail from './components/FriendDetails/FriendDetail';
